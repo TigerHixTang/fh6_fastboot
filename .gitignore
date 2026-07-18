@@ -1,5 +1,8 @@
 /target
-/dist
-Cargo.lock
-*.log
-*.zip
+ /dist
+ Cargo.lock
+ *.log
+ *.zip
+ .idea/
+ *.iml
+ 
