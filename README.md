@@ -1,8 +1,8 @@
-# FH6 FastBoot
+﻿# FH6 FastBoot
  
- Drop-in mod that skips Forza Horizon 6's startup wait — the ~25s black screen shown after the disclaimer/logo. Disk loading is left untouched, so the game reaches the menu as soon as loading finishes. The skip is fully automatic; no configuration required.
+ Drop-in mod that skips Forza Horizon 6's startup wait 鈥?the ~25s black screen shown after the disclaimer/logo. Disk loading is left untouched, so the game reaches the menu as soon as loading finishes. The skip is fully automatic; no configuration required.
  
- [Download on Nexus Mods](https://www.nexusmods.com/forzahorizon6/mods/522)
+ [Download latest release](https://github.com/TigerHixTang/fh6_fastboot/releases/latest)
  
  ## How it works
  
@@ -18,7 +18,7 @@
  
  No launcher or injector needed. `version.dll` is a system library that the game loads; this copy proxies it and forwards calls to the real one in `System32`.
  
- Already have another `version.dll` mod? Rename it to `version_orig.dll` — FastBoot loads it alongside the skip.
+ Already have another `version.dll` mod? Rename it to `version_orig.dll` 鈥?FastBoot loads it alongside the skip.
  
  ## Uninstall
  
