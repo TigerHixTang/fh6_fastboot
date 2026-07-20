@@ -1,4 +1,4 @@
-name: release
+﻿name: release
  
  on:
    push:
@@ -14,7 +14,7 @@ name: release
      steps:
        - uses: actions/checkout@v4
  
-       - uses: dtolnay/rust-toolchain@stable
+       - uses: dtolnay/rust-toolchain@nightly
  
        - name: Cache Rust dependencies
          uses: Swatinem/rust-cache@v2
