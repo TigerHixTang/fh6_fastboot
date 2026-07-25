@@ -12,7 +12,7 @@
  crate-type = ["cdylib"]
  
  [dependencies]
- retour = "=0.3.1"
+ retour = "0.3"
  
  [profile.release]
  opt-level = "z"
