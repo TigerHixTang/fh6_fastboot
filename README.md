@@ -18,7 +18,7 @@
  
  No launcher or injector needed. `version.dll` is a system library that the game loads; this copy proxies it and forwards calls to the real one in `System32`.
  
- Already have another `version.dll` mod? Rename it to `version_orig.dll` 鈥?FastBoot loads it alongside the skip.
+ Already have another `version.dll` mod? Rename it to `version_orig.dll` ?FastBoot loads it alongside the skip.
  
  ## Uninstall
  
